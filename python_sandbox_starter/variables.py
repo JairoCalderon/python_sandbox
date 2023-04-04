@@ -13,3 +13,18 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+x=1 #int
+y=2.5 #float
+name = "John" #str
+is_cool= True #boolean in this case the boolean comes with a Capital letter because otherwise Python would take as a variable
+
+x, y, name, is_cool=(1, 2.5, "John", True) #multiple assignment
+
+#BAsic Math
+a=x+y
+
+
+
+
+
