@@ -24,6 +24,7 @@ print(receipt)
 
 # A lambda function is a small anonymous function.
 # A lambda function can take any number of arguments, but can only have one expression. Very similar to JS arrow functions
+#similar to arow functions
 
 getSum2 = lambda num1, num2 : num1 + num2
 
