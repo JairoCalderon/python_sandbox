@@ -29,3 +29,29 @@ print(person.keys())
 
 #getting dict items
 print(person.items())
+
+
+
+#copy a dict
+person2 = person.copy()
+
+person2['city'] = 'Boston'
+
+print(person2)
+
+#remove an item
+del(person['age'])
+person.pop('phone')
+
+#getting the length
+print(len(person2))
+
+print(person)
+
+#list of dictionaries / array of objects
+people = [
+    {'name': 'Marta', 'age':30},
+    {'name': 'Kevin', 'age':25}   
+]
+
+print(people[1]['name'])
